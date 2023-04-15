@@ -1,0 +1,32 @@
+.serviceCard {
+  width: 33%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  .serviceLink {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    align-items: center;
+
+    .serviceImg {
+      width: 35px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .title {
+      color: white;
+      font-size: 15px;
+      font-family: monospace;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .serviceCard {
+    width: 45%;
+  }
+}

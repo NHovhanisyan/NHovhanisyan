@@ -1,0 +1,32 @@
+.home {
+  width: 65%;
+  margin-top: 50px;
+  position: relative;
+
+  .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .fullName {
+      color: white;
+      font-size: 65px;
+      width: fit-content;
+      font-family: cursive;
+    }
+
+    .position {
+      width: fit-content;
+      color: #5f5f65;
+      font-size: 25px;
+      margin-top: 40px;
+    }
+
+      .resume {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        margin-right: 12px;
+      }
+  }
+}

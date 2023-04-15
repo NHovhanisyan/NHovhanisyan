@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  background-color: #252734;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+}
