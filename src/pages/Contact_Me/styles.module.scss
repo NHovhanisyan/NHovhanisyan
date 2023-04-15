@@ -1,0 +1,51 @@
+.ContactMe {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+
+    .contactInfoAndForm {
+      display: flex;
+
+      .contactSidebar {
+        width: 350px;
+        height: fit-content;
+
+        .contactInfo {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: #292B37;
+          height: 100%;
+          text-align: start;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 1050px) {
+      .contactInfoAndForm {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .contactSidebar {
+          width: 350px;
+          margin-top: 40px;
+  
+          .contactInfo {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #292B37;
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+}
