@@ -1,0 +1,33 @@
+.firstCircle {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  border: 0.5px solid rgb(72, 72, 72);
+  border-radius: 50%;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  // z-index: -1;
+
+  .secondCircle {
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: 0.5px solid rgb(72, 72, 72);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .thirdCircle {
+      width: 200px;
+      height: 200px;
+      background-color: transparent;
+      border: 0.5px solid rgb(72, 72, 72);
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
