@@ -1,0 +1,17 @@
+.linkContainer {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .link {
+    color: #858792;
+    text-decoration: none;
+  }
+
+  .linkActive {
+    color: white;
+    text-decoration: none;
+  }
+}

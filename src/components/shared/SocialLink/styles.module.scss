@@ -1,0 +1,14 @@
+.link {
+  .icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  .icon:hover {
+    background-color: grey;
+    border: 1px solid white;
+  }
+}
