@@ -1,0 +1,17 @@
+.card {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #2A2C39;
+  margin-top: 10px;
+  width: 100%;
+
+  .title {
+    font-size: 15px;
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+  }
+}

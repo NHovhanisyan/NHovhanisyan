@@ -1,0 +1,7 @@
+.indicator {
+  background-color: grey !important;
+  
+  & > span {
+      background-color: white !important;
+    }
+}

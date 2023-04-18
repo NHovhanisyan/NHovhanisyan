@@ -11,7 +11,7 @@ export const SocialLinks = () => {
       {socialContacts.map((link) => (
         <SocialLink
           key={link.linkHref}
-          Icon={<link.Icon color="warning" style={{ width: 40, height: 40 }} />}
+          Icon={<link.Icon sx={{color: 'white'}} style={{ width: 40, height: 40 }} />}
           linkHref={link.linkHref}
         />
       ))}
