@@ -19,8 +19,12 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 899px) {
   .navbar {
-    flex-direction: column;
+    width: 100%;
+    
+    .content {
+      justify-content: end;
+    }
   }
 }
