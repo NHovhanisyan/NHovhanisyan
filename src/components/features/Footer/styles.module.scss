@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+  border-top: 0.5px solid grey;
+
+  .info {
+    display: flex;
+    .dark {
+      color: #858792;
+    }
+    .light {
+      color: white;
+    }
+  }
+
+  .logo {
+    height: 30px;
+    width: 140px;
+  }
+}
