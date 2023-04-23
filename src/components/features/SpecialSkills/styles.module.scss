@@ -1,0 +1,18 @@
+.SpecialSkills {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin-top: 150px;
+  align-items: center;
+
+  .skills {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .SpecialSkills {
+    flex-direction: column;
+    text-align: start;
+  }
+}
