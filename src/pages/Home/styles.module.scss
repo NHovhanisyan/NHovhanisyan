@@ -1,11 +1,14 @@
 .home {
-  width: 65%;
+  width: 100%;
   margin-top: 50px;
   position: relative;
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .intro {
-    width: 100%;
+    width: 65%;
     display: flex;
     flex-direction: column;
 
@@ -20,7 +23,7 @@
       width: fit-content;
       color: #5f5f65;
       font-size: 25px;
-      margin-top: 40px;
+      margin-top: 10px;
     }
 
       .resume {
