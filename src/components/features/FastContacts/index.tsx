@@ -1,11 +1,11 @@
 import { Box, Typography } from '@mui/material'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined'
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import { Button } from '../../shared/Button'
 
 import styles from './styles.module.scss'
-import { Button } from '../../shared/Button'
 
 const FastContacts = () => {
   return (
