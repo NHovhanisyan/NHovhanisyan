@@ -4,6 +4,7 @@ import Routes from './Router'
 import Footer from './components/features/Footer'
 import { Header } from './components/features/Header'
 import { Circles } from './components/features/Design/Circles'
+import FastContacts from './components/features/FastContacts'
 
 import './App.css'
 
@@ -13,6 +14,7 @@ const App = () => {
       <Circles />
       <Header />
       <Routes />
+      <FastContacts />
       <Footer />
     </Box>
   )

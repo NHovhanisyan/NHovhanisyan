@@ -7,6 +7,7 @@ type ButtonProps = {
   children?: ReactNode
   onClick?: () => void
   style?: React.CSSProperties
+  className?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -14,11 +15,12 @@ export const Button: React.FC<ButtonProps> = ({
   title,
   children,
   onClick,
+  className
 }) => {
   return (
     <button
       style={style}
-      className={styles.button}
+      className={className ? styles[className] : styles.button}
       onClick={onClick || undefined}
     >
       {title || children}

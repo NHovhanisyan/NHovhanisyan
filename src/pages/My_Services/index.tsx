@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box } from '@mui/material'
+import { Title } from '../../components/shared/Title'
 import { ServiceCard } from '../../components/features/Service_Card/index'
 import { Services } from '../../utils/My_Services/constants'
 
 import styles from './styles.module.scss'
-import { Title } from '../../components/shared/Title'
 
 export const MyServices = () => {
   return (
