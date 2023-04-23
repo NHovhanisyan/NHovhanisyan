@@ -18,3 +18,25 @@
 .button:hover {
   background-color: #5d5e65;
 }
+
+.fastContactBtn {
+  width:  60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3b3d49;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 0px;
+  border-radius: 50%;
+  padding: 17px;
+  margin-right: 10px;
+}
+
+.fastContactBtn:hover {
+  background-color: #5d5e65;
+}
