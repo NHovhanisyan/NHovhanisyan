@@ -1,13 +1,13 @@
 import React from 'react'
 import { Box } from '@mui/material'
-import { ServiceCard } from '../Service_Card/index'
+import CVButton from '../CvButton'
+import { Skills } from '../../../utils/Skills/constants'
 import { Services } from '../../../utils/My_Services/constants'
-
-import styles from './styles.module.scss'
+import { ServiceCard } from '../Service_Card/index'
 import { SectionHeader } from '../../shared/SectionHeader'
 import { SpecialSkillCard } from '../SpecialSkillCard'
-import { Skills } from '../../../utils/Skills/constants'
-import CVButton from '../CvButton'
+
+import styles from './styles.module.scss'
 
 export const SpecialSkills = () => {
   return (
