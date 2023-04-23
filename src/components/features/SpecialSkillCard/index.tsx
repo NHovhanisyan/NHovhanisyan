@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
+import { LinearProgressWithLabel } from '../LinearProgressWithLabel'
 
 import styles from './styles.module.scss'
-import { LinearProgressWithLabel } from '../LinearProgressWithLabel'
 
 type SpecialSkillCardProps = {
   title: string
