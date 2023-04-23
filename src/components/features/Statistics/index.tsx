@@ -1,8 +1,9 @@
 import { Box } from '@mui/material'
+import StatisticsCard from '../StatisticsCard'
+import { StatisticsInfo } from '../../../utils/Statistics/constants'
+
 
 import styles from './styles.module.scss'
-import { StatisticsInfo } from '../../../utils/Statistics/constants'
-import StatisticsCard from '../StatisticsCard'
 
 const Statistics = () => {
   return (
