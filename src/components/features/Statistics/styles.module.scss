@@ -1,0 +1,16 @@
+.statistics {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #282A37;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 899px) {
+  .statistics {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

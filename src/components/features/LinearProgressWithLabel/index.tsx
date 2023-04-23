@@ -23,6 +23,7 @@ export const LinearProgressWithLabel: React.FC<
       clearInterval(timer)
     }
   }, [])
+  
   return (
     <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
       <Box sx={{ width: '100%', mr: 1 }}>
