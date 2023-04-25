@@ -22,7 +22,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <Link className={styles.projectLink} href={project_url} target="blank">
       <Box className={styles.projectCard}>
+        <Box className={styles.imgContainer}>
         <img className={styles.projectImg} src={image_href} alt="Project" />
+        </Box>
         <Box className={styles.projectInfo}>
           <Box className={styles.header}>
             <Typography className={styles.title}>
