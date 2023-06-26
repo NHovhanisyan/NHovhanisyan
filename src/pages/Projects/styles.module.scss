@@ -1,7 +1,16 @@
 .projectsPage {
-  width: 100%;  
+  width: 100%;
   .projects {
     width: 100%;
     padding: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projectsPage {
+    .projects {
+      padding: 10px;
+      width: 95%;
+    }
   }
 }

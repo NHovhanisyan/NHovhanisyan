@@ -13,7 +13,7 @@ export const SectionHeader: React.FC<SectionHeaderProps> = ({
   label,
 }) => {
   return (
-    <Box>
+    <Box className={styles.sectionHeader}>
       <Typography className={styles.label}>|| &nbsp; {label}</Typography>
       <Typography className={styles.title}>{title}</Typography>
     </Box>

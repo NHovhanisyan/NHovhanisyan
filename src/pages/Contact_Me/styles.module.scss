@@ -26,23 +26,15 @@
 
     @media only screen and (max-width: 1050px) {
       .contactInfoAndForm {
-        display: flex;
         flex-direction: column-reverse;
         align-items: center;
 
         .contactSidebar {
-          width: 350px;
+          width: auto;
           margin-top: 40px;
   
           .contactInfo {
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #292B37;
-            text-align: start;
+            height: 250px;
           }
         }
       }

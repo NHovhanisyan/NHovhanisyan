@@ -28,5 +28,16 @@
 @media only screen and (max-width: 800px) {
   .serviceCard {
     width: 45%;
+
+    .serviceLink {
+      .serviceImg {
+        width: 30px;
+        height: 25px;
+      }
+
+      .title {
+        font-size: 12px;
+      }
+    }
   }
 }

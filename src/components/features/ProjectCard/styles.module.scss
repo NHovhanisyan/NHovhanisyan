@@ -53,23 +53,36 @@
         font-family: cursive;
         color: white;
         margin-top: 40px;
-      }      
+      }
     }
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .projectCard {
-    width: 45%;
-    height: 500px;
-    flex-direction: column;
-    .description {
-      font-size: 18px;
-      margin-top: 15px;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+  .projectLink {
+    .projectCard {
+      width: 100%;
+      padding: 10px;
+      height: auto;
+      flex-direction: column;
+
+      .imgContainer {
+        height: 60px;
+      }
+
+      .projectInfo {
+        height: auto;
+        margin-top: 15px;
+      }
+
+      .description {
+        font-size: 18px;
+        margin-top: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 30px 0px;
   border-top: 0.5px solid grey;
 
@@ -16,7 +17,26 @@
   }
 
   .logo {
-    height: 30px;
+    height: 25px;
     width: 140px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    .info {
+      .dark {
+        font-size: 9px;
+      }
+
+      .light {
+        font-size: 9px;
+      }
+    }
+
+    .logo {
+      height: 10px;
+      width: 60px;
+    }
   }
 }
