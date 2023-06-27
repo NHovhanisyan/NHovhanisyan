@@ -1,4 +1,6 @@
 import planDi from '../../assets/images/plandi.png'
+import optifly from '../../assets/images/optifly.png'
+import playember from '../../assets/images/playember.png'
 
 export const ProjectsInfo = [
   {
@@ -26,7 +28,21 @@ export const ProjectsInfo = [
     description:
       'WhoMi analyzes an investors historical trading patterns,whether successful or not, and presents personal behavior strategies enabling better decision-making.',
     date: '15.02.2023',
-    project_url: 'https://deliverend.com/',
+    project_url: 'https://www.whomi.biz/',
+  },
+  {
+    title: 'Playember',
+    image_href: playember,
+    description: 'Mobile Game Studio with over 100 Million Downloads',
+    date: '10.01.2023',
+    project_url: 'https://play.google.com/store/apps/details?id=com.pe.playemberhub',
+  },
+  {
+    title: 'Optifly',
+    image_href: optifly,
+    description: 'Optifly is a cutting-edge schedule optimization tool that works as an extension to your existing network scheduling software',
+    date: '13.11.2022',
+    project_url: 'https://optifly.com/',
   },
   {
     title: 'Solicy',
@@ -35,7 +51,7 @@ export const ProjectsInfo = [
     description:
       'Solicy is a fast-growing company providing Blockchain and Software solutions to customers all over the world',
     date: '21.10.2022',
-    project_url: 'https://deliverend.com/',
+    project_url: 'https://solicy.net/',
   },
   {
     title: 'PlanDi',
