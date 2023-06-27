@@ -7,9 +7,9 @@
     color: #858684;
     font-size: 15px;
   }
-  
+
   .title {
-    max-width: 70%;
+    max-width: 100%;
     text-align: start;
     color: white;
     font-size: 45px !important;
@@ -17,15 +17,13 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1050px) {
   .sectionHeader {
     .label {
       color: #858684;
       font-size: 15px;
     }
-  
+
     .title {
       max-width: 100%;
       font-size: 20px !important;

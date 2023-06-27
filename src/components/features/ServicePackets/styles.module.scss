@@ -1,0 +1,11 @@
+.servicePackets {
+  margin-top: 150px;
+  width: 65%;
+  z-index: -40;
+}
+
+@media screen and (max-width: 900px) {
+  .servicePackets {
+    width: 85%;
+  }
+}

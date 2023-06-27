@@ -1,6 +1,7 @@
-import { FC, ReactNode } from 'react'
+import { FC, useEffect, ReactNode } from 'react'
 import { Box, Drawer, IconButton } from '@mui/material'
 import ChevronRight from '@mui/icons-material/ChevronRight'
+
 import styles from './styles.module.scss'
 
 interface IProps {
@@ -18,6 +19,14 @@ const DrawerComponent: FC<IProps> = ({
   variant,
   children,
 }) => {
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflowY = 'hidden'
+    } else {
+      document.body.style.overflowY = 'scroll'
+    }
+  }, [isOpen])
+
   return (
     <Drawer
       className={styles.drawer}
@@ -31,7 +40,7 @@ const DrawerComponent: FC<IProps> = ({
       <Box className={styles.drawerContent}>
         <div className={styles.drawerHeader}>
           <IconButton onClick={onClose}>
-            <ChevronRight sx={{ color: "white" }}/>
+            <ChevronRight sx={{ color: 'white' }} />
           </IconButton>
         </div>
         {children}

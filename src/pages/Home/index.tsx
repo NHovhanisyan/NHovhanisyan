@@ -1,10 +1,7 @@
-import React from 'react'
-import DownloadIcon from '@mui/icons-material/Download'
-import { Box, Link, Typography } from '@mui/material'
-import CV from '../../assets/PDF/cv.pdf'
+import { Box, Typography } from '@mui/material'
 import CVButton from '../../components/features/CvButton'
 import Statistics from '../../components/features/Statistics'
-import { Button } from '../../components/shared/Button'
+import ServicePackets from '../../components/features/ServicePackets'
 import { SpecialSkills } from '../../components/features/SpecialSkills'
 
 import styles from './styles.module.scss'
@@ -17,6 +14,7 @@ export const Home = () => {
         <Typography className={styles.position}>Software Engineer</Typography>
         <CVButton />
       </Box>
+      <ServicePackets />
       <SpecialSkills />
       <Statistics />
     </Box>

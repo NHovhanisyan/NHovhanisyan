@@ -1,0 +1,49 @@
+.slider {
+  background-color: #222430;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 40px;
+  margin: 0px 10px;
+  height: 350px;
+
+  .title {
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .services {
+    margin-top: 30px;
+
+    .service {
+      color: #4F4F59;
+      font-size: 14px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider {
+    padding: 15px;
+
+    .services {
+      .service {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .slider {
+    .services {
+      .service {
+        font-size: 10px;
+      }
+    }
+  }
+}
