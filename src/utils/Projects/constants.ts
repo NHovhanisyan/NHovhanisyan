@@ -30,20 +30,20 @@ export const ProjectsInfo = [
     date: '15.02.2023',
     project_url: 'https://www.whomi.biz/',
   },
-  {
-    title: 'Playember',
-    image_href: playember,
-    description: 'Mobile Game Studio with over 100 Million Downloads',
-    date: '10.01.2023',
-    project_url: 'https://play.google.com/store/apps/details?id=com.pe.playemberhub',
-  },
-  {
-    title: 'Optifly',
-    image_href: optifly,
-    description: 'Optifly is a cutting-edge schedule optimization tool that works as an extension to your existing network scheduling software',
-    date: '13.11.2022',
-    project_url: 'https://optifly.com/',
-  },
+  // {
+  //   title: 'Playember',
+  //   image_href: playember,
+  //   description: 'Mobile Game Studio with over 100 Million Downloads',
+  //   date: '10.01.2023',
+  //   project_url: 'https://play.google.com/store/apps/details?id=com.pe.playemberhub',
+  // },
+  // {
+  //   title: 'Optifly',
+  //   image_href: optifly,
+  //   description: 'Optifly is a cutting-edge schedule optimization tool that works as an extension to your existing network scheduling software',
+  //   date: '13.11.2022',
+  //   project_url: 'https://optifly.com/',
+  // },
   {
     title: 'Solicy',
     image_href:
